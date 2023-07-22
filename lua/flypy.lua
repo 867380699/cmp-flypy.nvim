@@ -4,11 +4,11 @@ local config = {}
 local defaults = {
   dict_name = "flypy",
   comment = true, -- 在所有文件类型的注释下开启
-  filetype = { "markdown", },  -- 在指定文件类型下开启
+  filetype = { "markdown", "text" },  -- 在指定文件类型下开启
   num_filter = true, -- 数字筛选
-  source_code = true,
+  source_code = false,
   space_select_enable = false, -- 空格上屏使能
-  space_select_enable_hint = "",
+  space_select_enable_hint = "",
   space_select_switch_mappings = "<C-Space>", -- 空格上屏开关按键映射
 }
 
